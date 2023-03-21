@@ -1,0 +1,24 @@
+{
+  "name": "qa_automation_interview",
+  "version": "1.0.0",
+  "description": "Finish the test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinGocMMLLC/QA_Automation_Interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinGocMMLLC/QA_Automation_Interview/issues"
+  },
+  "homepage": "https://github.com/CalvinGocMMLLC/QA_Automation_Interview#readme",
+  "devDependencies": {
+    "chromedriver": "^111.0.0",
+    "nightwatch": "^2.6.18"
+  }
+}
