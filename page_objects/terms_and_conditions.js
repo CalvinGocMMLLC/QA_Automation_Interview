@@ -4,14 +4,15 @@
  */
  const commands = {
     acceptTerms() {
-        return this.waitForElementVisible('@agree', data.WAIT.FIVE_SECONDS).click('@agree')
+        //this.pause() //Can use a .pause() to freeze the test at a given point
+        return this.waitForElementVisible('@agree').click('@agree')
     },
 }
 
 const selectors = {
     agree: {
-        locateStrategy: 'xpath', //can use 'css selector'
-        selector: '' //TODO add selector for agree 
+        locateStrategy: 'css selector', //can use 'xpath'
+        selector: '{selector}' //TODO add selector for agree 
     }
 }
 

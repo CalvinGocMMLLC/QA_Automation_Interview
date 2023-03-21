@@ -4,12 +4,7 @@
  *
  */
 const commands = {
-    getRoomName() {
-        this.url((url)=>{
-            console.log(url.value.split('/'))
-            return url.value.split('/')[1]
-        })
-    },
+
 }
 
 const selectors = {
