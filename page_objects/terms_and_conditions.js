@@ -12,7 +12,7 @@
 const selectors = {
     agree: {
         locateStrategy: 'css selector', //can use 'xpath'
-        selector: '{selector}' //TODO add selector for agree 
+        selector: '{selector}' //TODO A
     }
 }
 

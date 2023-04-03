@@ -4,8 +4,8 @@
  *
  */
  const commands = {
-    clickRandomRoom() {
-        //TODO: Implement this function to click on a random room of the homepage
+    todoBFunction() {
+        //TODO: B
     }
 }
 const selectors = {
