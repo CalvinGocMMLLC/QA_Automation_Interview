@@ -1,7 +1,7 @@
 # QA Automation Interview
 Sample test suite to be fixed.
 
-## Prerequisits
+## Prerequisites
 Please have the following tools installed before attempting test:
 1. [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 1. [git](https://github.com/git-guides/install-git)
