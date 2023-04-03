@@ -1,4 +1,4 @@
-# QA_Automation_Interview
+# QA Automation Interview
 Sample test suite to be fixed.
 
 ## Prerequisits
@@ -12,11 +12,5 @@ Once repo is cloned locally please run `npm install`
 
 ## Completing the task
 
-To finish this task please find and resolve all `TODO` comments. The final test should:
-
-1. Go to the Chaturbate home page
-1. Accept the viewer terms
-1. Navigate to a random room from the home page
-1. Confirm the video element is displayed in the room
-
-To run the test use the command `npm run test`. Use of the [Nightwatch.js](https://nightwatchjs.org/) documentation is encouraged.
+To finish this task please find and resolve all `TODO` comments. Instructions for each
+`TODO` are listed in the RemoteInterview question.
