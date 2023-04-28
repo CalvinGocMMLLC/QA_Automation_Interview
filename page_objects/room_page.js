@@ -10,7 +10,7 @@ const commands = {
 const selectors = {
     video: {
         locateStrategy: 'css selector', 
-        selector: 'div.videoPlayerDiv > div.video-js > video'
+        selector: 'div.videoPlayerDiv > div.video-js > video, div.videoPlayerDiv > img'
     }
 }
 

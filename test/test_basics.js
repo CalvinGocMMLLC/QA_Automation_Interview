@@ -2,7 +2,7 @@ describe(`Test basic functionality of the chaturbate homepage`, function () {
 
     before(function (browser) {
         browser.url(browser.launch_url)
-        browser.page.terms_and_conditions().acceptTerms() //TODO: A
+        browser.page.terms_and_conditions().acceptTerms() 
     })
 
     test('Complete TODO: B task here', function (browser) {
