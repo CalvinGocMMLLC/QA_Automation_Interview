@@ -4,7 +4,9 @@
  *
  */
 const commands = {
-
+    displayVideoOptions() {
+        return this.waitForElementVisible('@video').click({selector: '@video', suppressNotFoundErrors: false, index: 0})
+    },
 }
 
 const selectors = {
