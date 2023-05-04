@@ -5,14 +5,14 @@
  const commands = {
     acceptTerms() {
         //this.pause() //Can use a .pause() to freeze the test at a given point
-        return this.waitForElementVisible('@agree').click('@agree')
+        return this.waitForElementVisible('@agree').click({selector: '@agree', suppressNotFoundErrors: false, index: 0})
     },
 }
 
 const selectors = {
     agree: {
         locateStrategy: 'css selector', //can use 'xpath'
-        selector: '{selector}' //TODO A
+        selector: 'selector' //TODO A
     }
 }
 
