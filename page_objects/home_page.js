@@ -4,10 +4,6 @@
  *
  */
  const commands = {
-    todoBFunction() {
-        //TODO: B
-    },
-
     randomNumber(topNumber) {
         return Math.floor(Math.random() * topNumber)
     }
