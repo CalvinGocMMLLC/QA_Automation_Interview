@@ -10,7 +10,7 @@ const commands = {
     async findPMCount() {
         let count = 0
         await this.api.elements('@pmSelector', async function (results) {
-            count = await results.value.length
+            count = results.value.length
         })
         return count
     }
