@@ -9,6 +9,8 @@ test.describe("Test basic functionality of Chaturbate homepage", ()=>{
   test('Complete TODO tasks', async ({page}) => {
     await page.goto('https://chaturbate.com')
 
+    //await page.pause() //this line can be uncommented out for pausing the test and manually debugging
+
     const terms_and_conditions_modal = new TermsAndConditionsModal(page)
 
     await terms_and_conditions_modal.agreeButton.click() //TODO 1 inside terms_and_conditions POM
