@@ -4,7 +4,7 @@
   "description": "Finish the test project",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch test/test_basics.js"
+    "test": "npx playwright test --headed"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/CalvinGocMMLLC/QA_Automation_Interview#readme",
   "devDependencies": {
-    "chromedriver": "^116.0.0",
-    "nightwatch": "^3.0"
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
   }
 }
