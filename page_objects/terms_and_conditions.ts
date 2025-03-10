@@ -10,6 +10,6 @@ export class TermsAndConditionsModal {
 
     constructor(page: Page) {
         this.page = page
-        this.agreeButton = page.locator("#close_entrance_terms") //TODO A
+        this.agreeButton = page.locator("i_am_a_bad_selector") //TODO 1
     }
 }
