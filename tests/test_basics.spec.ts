@@ -14,16 +14,16 @@ test.describe("Test basic functionality of Chaturbate homepage", ()=>{
     await terms_and_conditions_modal.agreeButton.click() //TODO A inside terms_and_conditions POM
 
   
-  await test.step('Complete TODO: B task here', async() => {
-    //TODO: B
-  })
+    await test.step('Complete TODO: B task here', async() => {
+      //TODO: B
+    })
   
   
-  await test.step('Complete TODO: C task here', async() => {
-    //TODO: C
-  })
+    await test.step('Complete TODO: C task here', async() => {
+      //TODO: C
+    })
 
-})
+  })
 })
 
 
