@@ -5,10 +5,9 @@ Sample test suite to be fixed.
 Please have the following tools installed before attempting test:
 1. [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 1. [git](https://github.com/git-guides/install-git)
-1. [Chrome](https://www.google.com/chrome/)
-1. An IDE of your choice for development in JavaScript
+1. An IDE of your choice for development in TypeScript
 
-Once repo is cloned locally please run `npm install`
+Once repo is cloned locally please run `npm install` and then 'npx playwright install'
 
 ## Completing the task
 
