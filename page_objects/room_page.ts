@@ -12,7 +12,7 @@ export class RoomPagePOM {
 
     constructor(page: Page) {
         this.page = page
-        this.video = page.locator('div.videoPlayerDiv > div.video-js > video, div.videoPlayerDiv > img')
+        this.video = page.getByTestId("video")
         this.pmSelector = page.locator('#UserListTab')
     }
 
