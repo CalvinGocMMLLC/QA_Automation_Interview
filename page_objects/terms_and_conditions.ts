@@ -4,6 +4,7 @@
  */
 import { expect, type Locator, type Page } from '@playwright/test';
 
+
 export class TermsAndConditionsModal {
     readonly page: Page
     readonly agreeButton: Locator
