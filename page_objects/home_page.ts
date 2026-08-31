@@ -14,7 +14,7 @@ export class HomePagePOM {
         this.roomCard = page.getByTestId('room-card')
     }
 
-    randomNumber(topNumber) {
+    randomNumber(topNumber: number) {
         return Math.floor(Math.random() * topNumber)
     }
 }

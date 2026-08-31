@@ -8,12 +8,12 @@ import { expect, type Locator, type Page } from '@playwright/test';
 export class RoomPagePOM {
     readonly page: Page
     readonly video: Locator
-    readonly pmSelector: Locator
+    readonly userInUserList: Locator
 
     constructor(page: Page) {
         this.page = page
         this.video = page.getByTestId("video")
-        this.pmSelector = page.locator('#UserListTab')
+        this.userInUserList = page.locator('.UserListContent .username')
     }
 
     async displayVideoOptions() {
@@ -21,11 +21,11 @@ export class RoomPagePOM {
         await this.video.click()
     }
 
-    async findPMCount() {
-        return this.pmSelector.count()
+    async findUsersCount() {
+        return this.userInUserList.count()
     }
 
-    async openIndexPM(index: number) {
-        this.pmSelector.nth(index).click()
+    async selectUserByIndex(index: number) {
+        this.userInUserList.nth(index).click()
     }
 }
