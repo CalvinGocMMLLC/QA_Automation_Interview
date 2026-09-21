@@ -11,7 +11,7 @@ test.describe("Test basic functionality of Chaturbate homepage", ()=>{
 
     // await logIn(page) //if blocked by age_gate proctor will provide a log in cookie and this line should be uncommented
 
-    await page.goto('https://chaturbate.com/?pft_EvlvMd=1')
+    await page.goto('https://chaturbate.com/')
 
     // await page.pause() //this line can be uncommented out for pausing the test and manually debugging
 
