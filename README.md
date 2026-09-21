@@ -7,7 +7,7 @@ Please have the following tools installed before attempting test:
 1. [git](https://github.com/git-guides/install-git)
 1. An IDE of your choice for development in TypeScript
 
-Once repo is cloned locally please run `npm install` and then 'npx playwright install'
+Once repo is cloned locally please run `npm install` and then `npx playwright install`
 
 ## Completing the task
 
